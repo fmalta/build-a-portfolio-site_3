@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- saved from url=(0401)https://storage.googleapis.com/supplemental_media/udacityu/2730818600/bootstrap-prestructure.html?GoogleAccessId=1069728276824-fdhtlb98k1m9qrmdgj4jgc7gjp2l1lsm@developer.gserviceaccount.com&Expires=1431479354&Signature=eynKFyBuP/8OeXjQSrb5ux%2BM4WIebh8xeOYP6%2BNIlBROc9rWHWIjBJTjmVn%2BnaRURNuFFNfJDdpdxd0%2BZMLbmoLbPnnjuWqoy1nnGjSxXZNzpIsBLjnbOXvBHO4MN2GxFzWvgc9rXf3DfOCrMWvcoVYvucTeL7taWJGp7TZIH7s%3D -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Frank Malta's Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+      <!--ROW #1-->
+      <header class="row">
+        <div class="col-md-6">
+          <img src="images/logo.png" alt="Udacity logo" height="150" width="150" class="img-responsive">
+        </div>
+        <div class="col-md-6">
+          <h1 class="title1">FRANK MALTA</h1>
+          <h4 class="title2">Front-End Ninja</h4>
+        </div>
+      </header>
+      <hr>
+      <!--ROW #2-->
+      <section class="row">
+        <div class="col-md-12">
+          <img src="images/splash2.png" alt="Splash Image" height="538" width="1200" class="img-responsive">
+        </div>
+      </section>
+      <!--ROW #3 Header-->
+      <div>
+        <h2 class="text-muted">Featured Work</h2>
+      </div>
+      <!--ROW #3-->
+      <figure class="row text-center">
+        <div class="col-md-4">
+          <img src="images/mobileapp.png" alt="Mobile App Image" class="img-responsive" height="300" width="555" data-toggle="modal" data-target="#app">
+          <h3 class="text-uppercase">Mobile App</h3>
+          <p><a href="http://github.com/">Link to project</a></p>
+        </div>
+        <div class="col-md-4">
+          <img src="images/resume.png" alt="Resume Image" class="img-responsive" height="300" width="555" data-toggle="modal" data-target="#resume">
+          <h3 class="text-uppercase">Resume</h3>
+          <p><a href="http://github.com/">Link to project</a></p>
+        </div>
+        <div class="col-md-4">
+          <img src="images/arcade.png" alt="Arcade Image" class="img-responsive" height="300" width="555" data-toggle="modal" data-target="#arcade">
+          <h3 class="text-uppercase">Arcade Game</h3>
+          <p><a href="http://github.com/">Link to project</a></p>
+        </div>
+      </figure>
+    </div>
+
+<!-- Modal #1 - MOBILE APP -->
+    <div class="modal fade" id="app" tabindex="-1" role="dialog" aria-labelledby="na" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="Mobile App" id="app">My Mobile App Page</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/mobileapp.png" alt="Mobile App Image">
+            This is a preview of my mobile app screens.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Modal #2 - RESUME -->
+    <div class="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="na" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="Resume" id="resume">My Resume Page</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/resume.png" alt="Resume Image">
+            This is my most current Resume - May 2015.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Modal #3 - ARCADE GAME -->
+    <div class="modal fade" id="arcade" tabindex="-1" role="dialog" aria-labelledby="na" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="Arcade Game" id="arcade">My Arcade Game Page</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/arcade.png" alt="Arcade Image">
+            This is an image of Frank's Arcade game created in 2015.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
